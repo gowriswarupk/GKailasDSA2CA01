@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="640.0" prefWidth="983.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fruitanalyser.Controller">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="368.0" layoutX="16.0" layoutY="144.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" width="470.0" />
+      <ImageView fx:id="originalImage" fitHeight="356.0" fitWidth="458.0" layoutX="22.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="368.0" layoutX="504.0" layoutY="144.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" width="470.0" />
+      <ImageView fx:id="bwImage" fitHeight="356.0" fitWidth="458.0" layoutX="510.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="bwConvert" layoutX="609.0" layoutY="517.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="240.0" text="Black and White Conversion" />
+      <Button fx:id="imageUpload" layoutX="194.0" layoutY="96.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="151.0" text="Upload Image" />
+      <Button fx:id="findClusters" layoutX="194.0" layoutY="517.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="151.0" text="Find Clusters/Items" />
+      <TextField fx:id="clusterOutput" editable="false" layoutX="355.0" layoutY="564.0" prefHeight="38.0" prefWidth="173.0" />
+      <Label layoutX="396.0" layoutY="14.0" prefHeight="64.0" prefWidth="217.0" text="FRUIT ANALYSER">
+         <font>
+            <Font name="Copperplate" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="183.0" layoutY="574.0" prefHeight="17.0" prefWidth="173.0" text="Total Number of items/clusters:" />
+   </children>
+</AnchorPane>
