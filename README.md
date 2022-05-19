@@ -6,7 +6,7 @@ Fruit Analyser is the first CA project of the Data Structures Module in Y2 Sem2 
 
 ## Pre-requisites:
 
-   Users should ensure that they have the following steps completed prior to running the program to esnure smooth workflow:
+   Users should ensure that they have the following steps completed prior to running the program to ensure smooth workflow:
 
 - JavaFX lib along with the path to in (in VM options)
 - Java SDK 18+
