@@ -1,13 +1,12 @@
 # Fruit Tree Analyser
-
-    by Gowriswarup Kailas Perumal
-        20087165@mail.wit.ie
+   by Gowriswarup Kailas Perumal
+        20087165@mail.wit.ie 
 
 Fruit Analyser is the first CA project of the Data Structures Module in Y2 Sem2 for college.
 
 ## Pre-requisites:
 
-    Users should ensure that they have the following steps completed prior to running the program to esnure smooth workflow:
+   Users should ensure that they have the following steps completed prior to running the program to esnure smooth workflow:
 
 - JavaFX lib along with the path to in (in VM options)
 - Java SDK 18+
